@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment (pyenv local writes .python-version; env names are per machine)
+.python-version
+.venv/
+venv/
+.env
+
+# Editors / IDEs
+*.code-workspace
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+
+# Never commit network data or exports
+*.har
+/*.vsdx
+/*.png
+/*.pdf
+/*.json
+output/
